@@ -1,20 +1,13 @@
+const side1 = 7
+const side2 = 5
+const side3 = 6
 
-const ball = 12
-
-console.log(ball % 2)
-if(ball === 12)(
-    console.log("number is even")
+if(side1==side2 & side3)(
+    console.log("equilateral triangle")
 )
-
-const cub = 21
-
-console.log(cub % 2)
-if(cub === 21)(
-    console.log("number is odd")
+if(side1===side2 || side2===side3 || side1===side3)(
+    console.log("isosceles triangle")
 )
-
-
-
-
-
-
+if(side1!=side2||side1!=side3||side2!=side3)(
+    console.log("scalene triangle")
+)
