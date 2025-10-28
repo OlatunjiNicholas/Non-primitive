@@ -6,5 +6,3 @@ const book = {
     reading: false
 }
 console.log(book)
-    title: "Be Humble"
-    description: ""

@@ -1,7 +1,11 @@
-const side1 = 7
-const side2 = 5
-const side3 = 6
-
+const side1 = 5
+const side2 = 6
+const side3 = 7
+// & means and
+// || means or
+// ! means Never 
+// === means strictly equal(no different)
+// == means equal (samethings but with little different) 
 if(side1==side2 & side3)(
     console.log("equilateral triangle")
 )
