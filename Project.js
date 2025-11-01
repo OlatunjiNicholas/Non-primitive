@@ -14,9 +14,13 @@ const meter3centimeter = (meters) => meters * 20
 console.log(meter3centimeter (10))
 
 // // 3.print all even numbers from 0-100
-for (let h= 0; h<=100; h+=2)(
+for (let h= 0; h<=100; h+=2){
+    if(h<=0)
     console.log(h +' h')
-)
+else{
+    console.log(h +" hs")
+}
+}
 
 // // // // 4.print table containing multiple tables
 function multiples(a,b){

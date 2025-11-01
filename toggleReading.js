@@ -13,5 +13,5 @@ function toggleReadingStatus() {
   reading: true,
   toggleReadingStatus
   }
-book1.toggleReadingStatus();
+book1.toggleReadingStatus(); 
 book2.toggleReadingStatus();
